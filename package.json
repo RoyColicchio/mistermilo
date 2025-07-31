@@ -1,12 +1,12 @@
 {
   "name": "rtctest",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "The official TypeScript library for the Rtctest API",
   "author": "Rtctest <>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
-  "repository": "github:stainless-sdks/rtctest-typescript",
+  "repository": "github:RoyColicchio/mistermilo",
   "license": "Apache-2.0",
   "packageManager": "yarn@1.22.22",
   "files": [
@@ -45,10 +45,6 @@
     "tsconfig-paths": "^4.0.0",
     "typescript": "5.8.3",
     "typescript-eslint": "8.31.1"
-  },
-  "imports": {
-    "rtctest": ".",
-    "rtctest/*": "./src/*"
   },
   "exports": {
     ".": {
